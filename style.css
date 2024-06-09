@@ -1,0 +1,123 @@
+* {
+  font-family:"Montserrat", "Courier New", monospace;;
+ }
+
+
+.left{
+    text-align: left;
+    margin-left: 50px;  
+  }
+  
+  .center{
+    text-align: center;
+    align-items: center;
+  }
+  
+  .right{
+    display: block;
+    text-align:right;
+    margin-right: 50px;
+  }
+  
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  #titlehead {
+    width: 100%;
+    font-size: 22px;
+    color: #f1f1f1;
+    background-color: black;
+    background-size: 100vw 100vh;
+    }
+  
+  #name{
+    height:10px;
+  }  
+  
+  #line2{
+    display: flex;
+    justify-content: space-between;
+    width : 100%;
+    height: 80px;
+  }
+
+  body{
+    /*border: 1px solid red;*/
+    font-size: 22px;
+  }
+
+  
+  div {
+    /*border: 1px solid green;*/
+  }
+
+  #inner-body{
+    /*border: 1px solid blue;*/
+    margin-left: 8%;
+    margin-right: 8%;
+    padding:5px;
+  }
+
+  #inner-box{
+    display: inline-block;
+    text-align:right;
+    /*border:1px solid blue;*/
+    vertical-align: text-top;
+    
+  }
+
+  #milo-image{
+    border:2px solid black;
+    margin-left:66.8%;
+  }
+
+  #titleone{
+   /*border: 1px solid yellow;*/
+   margin-right: 50%;
+   margin-top: -390px; /* Adjust the value as needed */ 
+   margin-right: 30%;
+  }
+  
+  #p1{
+    margin-right: 35%;
+    text-align: justify;
+    text-justify: inter-word;
+    /*border: brown 1px solid;*/
+    font-size: smaller;
+  }
+
+  #cv{
+    margin-left: 500px;
+  }
+
+  h4:hover{
+    transform: scale(1.2);
+  }
+
+  footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+  }
+
+  #proj1{
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  #proj1:hover{
+    transition: opacity 0.3s ease-in-out;
+    opacity:0.5;
+  }
