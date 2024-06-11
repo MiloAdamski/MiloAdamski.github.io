@@ -1,101 +1,97 @@
-
-
 * {
   font-family:"Montserrat", "Courier New", monospace;;
- }
+}
 
 
 .left{
-    text-align: left;
-    margin-left: 5%;  
-  }
+  text-align: left;
+  margin-left: 5%;  
+}
+
+.center{
+  text-align: center;
+  align-items: center;
+}
   
-  .center{
-    text-align: center;
-    align-items: center;
-  }
+.right{
+  text-align:right;
+  margin-right: 5%;
+}
   
-  .right{
-    text-align:right;
-    margin-right: 5%;
-  }
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
   
-  a:link {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-  }
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
   
-  a:visited {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-  }
+header {
+  width: 100%;
+  font-size: 22px;
+  color: #f1f1f1f1;
+  background-color: black;
+  background-size: 100vw 100vh;
+}
   
-  header {
-    width: 100%;
-    font-size: 22px;
-    color: #f1f1f1f1;
-    background-color: black;
-    background-size: 100vw 100vh;
-    }
+
+#name{
+  height:10px;
+}  
+
+#line2{
+  display:flex;
+  width : 100%;
+  height: 80px;
+  gap:20px;
+}
+
+#course{
+  width:70%;
+  border: 1px solid blue;
+}
+
+nav{
+  width: 40%;
+  border: 1px solid red;
+}
   
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    margin-bottom: 10px;
-  }
+.navigation a {
+  margin-left: 60px;
+  text-align: right;
+}
 
-  #name{
-    height:10px;
-  }  
+body{
+  /*border: 1px solid red;*/
+  font-size: 22px;
+  margin:0;
+  padding:0;
+}
 
-  #line2{
-    display: inline-block;
-    width : 100%;
-    height: 80px;
-    gap:20px;
-  }
+a:hover{
+  text-shadow: 1px 1px 1px white;
+  text-decoration: underline;
+}
 
-  #course{
-    margin-right: 50%;
-    border: 1px solid blue;
-  }
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+}
 
-  nav{
-    margin: auto;
-    border: 1px solid red;
-  }
+#proj1{
+  transition: opacity 0.3s ease-in-out;
+}
 
-  body{
-    /*border: 1px solid red;*/
-    font-size: 22px;
-    margin:0;
-    padding:0;
-  }
-
-  li:hover{
-    transform: scale(1.2);
-  }
-
-  footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: transparent;
-    color: white;
-    text-align: center;
-  }
-
-  #proj1{
-    transition: opacity 0.3s ease-in-out;
-  }
-
-  #proj1:hover{
-    transition: opacity 0.3s ease-in-out;
-    opacity:0.5;
-  }
+#proj1:hover{
+  transition: opacity 0.3s ease-in-out;
+  opacity:0.5;
+}
