@@ -146,13 +146,14 @@ footer{
 }
 
 #contact-tag{
+  margin-left: 15%;
   width: fit-content;
   height: fit-content;
 }
 
 #contact{
   list-style: none;
-  width: 40%;
+  width: 25%;
 }
 
 #contact li{
@@ -162,4 +163,9 @@ footer{
 
 #namebox{
   height:20px;
+}
+
+#contact li {
+  display: flex; /* Activate flexbox for list items */
+  justify-content: space-between; /* Distribute content horizontally */
 }
