@@ -73,7 +73,7 @@ nav {
 }
 
 html { 
-  background: url(background.webp) no-repeat center center fixed; 
+  background: url(background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -121,6 +121,8 @@ footer{
   text-align: center;
 }
 
+/*projects*/
+
 #proj1{
   transition: opacity 0.3s ease-in-out;
 }
@@ -128,4 +130,35 @@ footer{
 #proj1:hover{
   transition: opacity 0.3s ease-in-out;
   opacity:0.5;
+}
+
+
+
+/*contact page*/
+
+#content-wrapper{
+  display: flex; 
+}
+
+#contact-tag{
+  margin-left: 11%;
+  border:1px solid blue;
+  width: fit-content;
+  height: fit-content;
+  justify-content: center; /* Horizontally center form within red box */
+}
+
+#contact{
+  list-style: none;
+  border: 1px solid red;
+  width: 30%;
+}
+
+#contact li{
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+#namebox{
+  height:20px;
 }
