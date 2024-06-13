@@ -141,17 +141,13 @@ footer{
 }
 
 #contact-tag{
-  margin-left: 11%;
-  border:1px solid blue;
   width: fit-content;
   height: fit-content;
-  justify-content: center; /* Horizontally center form within red box */
 }
 
 #contact{
   list-style: none;
-  border: 1px solid red;
-  width: 30%;
+  width: 40%;
 }
 
 #contact li{
