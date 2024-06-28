@@ -158,11 +158,14 @@ intro{
 }
 
 #pisystem{
-  margin-right: 5%;
-  float:right;
-
+  margin-left: 5%;
+  margin-bottom:5%;
+  float:left;
 }
 
+#pidiagram{
+  margin-right: 5%;
+}
 
 
 /*contact page*/
