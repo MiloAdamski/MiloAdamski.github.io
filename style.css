@@ -127,14 +127,40 @@ footer{
 }
 
 /*projects*/
+projectbox{
+  display: flexbox;
+}
 
-#proj1{
+.proj{
   transition: opacity 0.3s ease-in-out;
 }
 
-#proj1:hover{
+.proj:hover{
   transition: opacity 0.3s ease-in-out;
   opacity:0.5;
+}
+
+#fpga{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#pi_cam{
+  float: right;
+}
+
+intro{
+  display: flex;
+}
+
+#pipara{
+  margin-left:5%;
+}
+
+#pisystem{
+  margin-right: 5%;
+  float:right;
+
 }
 
 

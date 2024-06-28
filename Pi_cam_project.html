@@ -24,33 +24,19 @@
 
 <body>
 
-    <h2 class='center'>Contact</h2>
-    <div id='content-wrapper'>
-        <section id="contact">
-            <form action="mailto:m.adamski.0209@gmail.com" method="post" enctype="text/plain" class='left'>
-                <ul>
-                    <li>
-                        <label for="name">Name:</label>
-                        <input id='name-box' type="text" id="name" name="name">
-                    </li>
-                    <li>
-                        <label for="email">Email:</label>
-                        <input id='email-box' type="email" id="email" name="email">
-                    </li>
-                    <li>
-                        <label for="message">Message:</label>
-                        <textarea id='message-box' id="message" name="message"></textarea>
-                    </li>
-                    <li>
-                        <input type="submit" value="Send">
-                    </li>
-                </ul>
-            </form>
-        </section>
-        <p id='contact-tag' >Get in contact, im friendly!</p>
-    </div>
-    <p class='left' >Email: M.Adamski.0209@gmail.com</p>
-    <p class='left' >Mobile: 07944179820</p>
+    <h2 class='center'>Pi Video Streaming for Distributed Processing</h2>
+    <intro>
+        <p class='left' id=pipara>For this project, I aimed to enhance my skills in Raspberry Pi development, Python programming,
+             and general networking by creating two video streaming systems. The objective was to capture video of a moving red dot on one
+             device, send the video to another device for processing to track the dot's movement between frames, and finally send the movement infomation back to be displayed.
+             The configurations included streaming and processing video between two Raspberry Pis, and between a Raspberry Pi and a PC.<br><br>
+             Using a Linux-based operating system on the Raspberry Pi, I programmed the systems using Python in the MicroPython interpreter, Thonny.
+             Key libraries employed were OpenCV for video capture and processing, the socket library for network communication via UDP, and the pickle
+             module for serializing data for transmission.
+        </p>
+        <img id='pisystem' src='pisystem.png' height='40%' width='25%'>        
+    </intro>
+
 
 </body>
 
