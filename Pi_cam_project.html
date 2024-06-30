@@ -1,7 +1,7 @@
 <head>
     <title>Milo Adamski</title>
     <link href='style.css' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,500' rel='stylesheet'>
 </head>
 
 <header>
@@ -26,9 +26,9 @@
 
     <h2 class='center'>Pi Video Streaming for Distributed Processing</h2>
     <intro>
-        <p class='left' id=pipara>For this project, I aimed to enhance my skills in <strong>Raspberry Pi development</strong>, <strong>programming</strong>,
-             and <strong>general networking</strong> by creating two video streaming systems. The objective was to capture video of a moving red dot on one
-             device, send the video to another device for processing to track the dot's movement between frames, and finally send the movement infomation back to be displayed.
+        <p class='left' id=pipara>For this project, I aimed to enhance my skills in Raspberry Pi development, <strong>programming</strong>,
+             and <strong>general networking</strong> by creating two video streaming systems. The objective was to <strong>capture video of a moving red dot</strong> on one
+             device, send the video to another device for processing to <strong> the dot's movement between frames</strong>, and finally send the movement infomation back to be displayed.
              The configurations included streaming and processing video between two Raspberry Pis, and between a Raspberry Pi and a PC.<br><br>
              Using a Linux-based operating system on the Raspberry Pi, I programmed the systems using Python in the MicroPython interpreter, Thonny.
              Key libraries employed were OpenCV for video capture and processing, the socket library for network communication via UDP, and the pickle
@@ -39,14 +39,29 @@
     </intro>
 
     <middle>
-        <img id='pisystem' src='images/pisystem.png' height='40%' width='25%'>
-        <p>
-            Upon creation of the system, I analysed the different qualities of each configuration to compare the quality of different 
-            transmission methods. This was done using wireshark which is a network protocol analyser that captures packets from a network 
-            connection.
-        </p>
+        <img id='pi-system' src='images/pisystem.png' height='40%' width='25%'>
+        <text-container>
+            <p id=imnotsure>
+                Upon creation of the system, I analysed the different componetns of each configuration to compare the quality of different 
+                transmission methods. This was done using wireshark which is a network protocol analyser that captures packets from a network 
+                connection.
+            </p>
+            <h2 id=skills-header><u>Skills</u></h2>
+            <ul id='skills-list'>
+                <li><strong>Python Programming:</strong> Proficiency in writing and debugging Python code, utilizing libraries like OpenCV for video processing, and using Thonny IDE.</li>
+                <li><strong>Raspberry Pi Development:</strong> Setting up and programming with MicroPython and Linux.</li>
+                <li><strong>Networking:</strong> Managing UDP sockets, real-time data transmission, and using Wireshark.</li>
+                <li><strong>Video Processing:</strong> Capturing and processing video with OpenCV, serializing data with pickle.</li>
+                <li><strong>Distributed Computing and IoT:</strong></li> Implementing distributed processing and integrating IoT devices.
+                <li><strong>Project Management:</strong></li> Managing configurations, documenting processes, and analyzing network performance.
+            </ul>
+        </text-container>
         
     </middle>
+
+    <lower>
+
+    </lower>
 
     <bottom>
         <video width="480" height="360" controls>
