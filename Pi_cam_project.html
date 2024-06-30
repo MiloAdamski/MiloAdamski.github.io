@@ -26,43 +26,56 @@
 
     <h2 class='center'>Pi Video Streaming for Distributed Processing</h2>
     <intro>
-        <p class='left' id=pipara>For this project, I aimed to enhance my skills in Raspberry Pi development, Python programming,
-             and general networking by creating two video streaming systems. The objective was to capture video of a moving red dot on one
+        <p class='left' id=pipara>For this project, I aimed to enhance my skills in <strong>Raspberry Pi development</strong>, <strong>programming</strong>,
+             and <strong>general networking</strong> by creating two video streaming systems. The objective was to capture video of a moving red dot on one
              device, send the video to another device for processing to track the dot's movement between frames, and finally send the movement infomation back to be displayed.
              The configurations included streaming and processing video between two Raspberry Pis, and between a Raspberry Pi and a PC.<br><br>
              Using a Linux-based operating system on the Raspberry Pi, I programmed the systems using Python in the MicroPython interpreter, Thonny.
              Key libraries employed were OpenCV for video capture and processing, the socket library for network communication via UDP, and the pickle
              module for serializing data for transmission.
         </p>
-        <img id='pidiagram' src='pi_diagram.png' height='30%' width='40%'>
+        <img id='pidiagram' src='images/pi_diagram.png' height='30%' width='40%'>
                 
     </intro>
 
     <middle>
-        <img id='pisystem' src='pisystem.png' height='40%' width='25%'>
-        <br><br><br>
+        <img id='pisystem' src='images/pisystem.png' height='40%' width='25%'>
+        <p>
+            Upon creation of the system, I analysed the different qualities of each configuration to compare the quality of different 
+            transmission methods. This was done using wireshark which is a network protocol analyser that captures packets from a network 
+            connection.
+        </p>
+        
     </middle>
-  
+
+    <bottom>
+        <video width="480" height="360" controls>
+            <source src="EE3625 Demo.mp4" type="video/mp4">
+            <source src="EE3625 Demo.mp4" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+    </bottom>
+
 </body>
 
 
 <footer class='left'>
     <a href ="m.adamski.0209@gmail.com" target="_blank">
-        <img src="email.png" width="60" height="60" class='center'>
+        <img src="images/email.png" width="60" height="60" class='center'>
     </a>
     <a href="https://www.instagram.com/milo.adamski/" target="_blank">
-        <img src="insta.png" width="60" height="60" class='center'>
+        <img src="images/insta.png" width="60" height="60" class='center'>
     </a>
     <a href ="https://www.linkedin.com/in/milo-adamski-b5086b309/?trk=opento_sprofile_details" target="_blank">
-        <img src="linked.png" width="60" height="60" class='center'>
+        <img src="images/linked.png" width="60" height="60" class='center'>
     </a>
     <a href ="Python3 Certificate.pdf" target="_blank">
-        <img src="python3.jpeg" width="60" height="60" class='center'>
+        <img src="images/python3.jpeg" width="60" height="60" class='center'>
     </a>
     <a href ="htmlcertificate.pdf" target="_blank">
-        <img src="html5.png" wwidth="60" height="60" class='center'>
+        <img src="images/html5.png" wwidth="60" height="60" class='center'>
     </a>
     <a href ="https://www.brunel.ac.uk/study/undergraduate/Computer-Systems-Engineering-BEng" target="_blank">
-        <img src="brunel2.png" wwidth="60" height="60" class='center'>
+        <img src="images/brunel2.png" wwidth="60" height="60" class='center'>
     </a>
 </footer>
